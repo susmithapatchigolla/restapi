@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-restapi-dev-91850-authRole",
+      "UnauthRoleArn": "arn:aws:iam::728254692372:role/amplify-restapi-dev-91850-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::728254692372:role/amplify-restapi-dev-91850-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-restapi-dev-91850-deployment",
+      "UnauthRoleName": "amplify-restapi-dev-91850-unauthRole",
+      "StackName": "amplify-restapi-dev-91850",
+      "StackId": "arn:aws:cloudformation:us-east-1:728254692372:stack/amplify-restapi-dev-91850/522131e0-2fc6-11ec-8f7d-0eb78dc730e3",
+      "AmplifyAppId": "d21jlnuhdbs119"
+    },
+    "categories": {
+      "auth": {
+        "restapi3f86da58": {}
+      },
+      "function": {
+        "restapifaa8c137": {
+          "deploymentBucketName": "amplify-restapi-dev-91850-deployment",
+          "s3Key": "amplify-builds/restapifaa8c137-5a6f3641624568755274-build.zip"
+        }
+      }
+    }
+  }
+}
