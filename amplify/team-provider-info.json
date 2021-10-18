@@ -18,7 +18,7 @@
       "function": {
         "restapifaa8c137": {
           "deploymentBucketName": "amplify-restapi-dev-91850-deployment",
-          "s3Key": "amplify-builds/restapifaa8c137-5a6f3641624568755274-build.zip"
+          "s3Key": "amplify-builds/restapifaa8c137-42696f6b666d6c686c31-build.zip"
         }
       }
     }
