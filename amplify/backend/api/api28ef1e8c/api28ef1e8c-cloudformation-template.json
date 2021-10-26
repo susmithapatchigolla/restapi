@@ -371,7 +371,7 @@
         
         
 
-      "DeploymentAPIGWapi28ef1e8c": {
+      "DeploymentAPIGWapi28ef1e8c25e6996a": {
         "Type": "AWS::ApiGateway::Deployment",
         "Properties": {
           "Description": "The Development stage deployment of your API.",

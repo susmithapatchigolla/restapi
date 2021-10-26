@@ -1,6 +1,6 @@
 {
   "auth": {
-    "restapi6fab0ae1": {
+    "restapie7d3edd8": {
       "service": "Cognito",
       "serviceType": "imported",
       "providerPlugin": "awscloudformation",

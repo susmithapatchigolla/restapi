@@ -1,42 +1,43 @@
 {
-  "paths": [
-    {
-      "name": "/items",
-      "lambdaFunction": "restapie1902991",
-      "privacy": {
-        "private": true,
-        "auth": [
-          "/POST",
-          "/GET",
-          "/PUT",
-          "/PATCH",
-          "/DELETE"
-        ]
-      },
-      "policyResourceName": "/items"
-    }
-  ],
-  "resourceName": "api28ef1e8c",
-  "apiName": "api28ef1e8c",
-  "functionArns": [
-    {
-      "lambdaFunction": "restapie1902991"
-    }
-  ],
-  "privacy": {
-    "auth": 1,
-    "unauth": 0,
-    "authRoleName": "amplify-restapi-dev-103938-authRole",
-    "unAuthRoleName": "amplify-restapi-dev-103938-unauthRole"
-  },
-  "dependsOn": [
-    {
-      "category": "function",
-      "resourceName": "restapie1902991",
-      "attributes": [
-        "Name",
-        "Arn"
-      ]
-    }
-  ]
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "restapie1902991",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "api28ef1e8c",
+    "apiName": "api28ef1e8c",
+    "functionArns": [
+        {
+            "lambdaFunction": "restapie1902991"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-restapi-dev-103938-authRole",
+        "unAuthRoleName": "amplify-restapi-dev-103938-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "restapie1902991",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "25e6996a"
 }
