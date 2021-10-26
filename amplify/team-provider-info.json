@@ -1,24 +1,40 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-restapi-dev-91850-authRole",
-      "UnauthRoleArn": "arn:aws:iam::728254692372:role/amplify-restapi-dev-91850-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::728254692372:role/amplify-restapi-dev-91850-authRole",
+      "AuthRoleName": "amplify-restapi-dev-103938-authRole",
+      "UnauthRoleArn": "arn:aws:iam::728254692372:role/amplify-restapi-dev-103938-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::728254692372:role/amplify-restapi-dev-103938-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-restapi-dev-91850-deployment",
-      "UnauthRoleName": "amplify-restapi-dev-91850-unauthRole",
-      "StackName": "amplify-restapi-dev-91850",
-      "StackId": "arn:aws:cloudformation:us-east-1:728254692372:stack/amplify-restapi-dev-91850/522131e0-2fc6-11ec-8f7d-0eb78dc730e3",
-      "AmplifyAppId": "d21jlnuhdbs119"
+      "DeploymentBucketName": "amplify-restapi-dev-103938-deployment",
+      "UnauthRoleName": "amplify-restapi-dev-103938-unauthRole",
+      "StackName": "amplify-restapi-dev-103938",
+      "StackId": "arn:aws:cloudformation:us-east-1:728254692372:stack/amplify-restapi-dev-103938/eec12e10-361a-11ec-b4a1-120edf13c247",
+      "AmplifyAppId": "dks25g1fujaj4"
     },
     "categories": {
       "auth": {
-        "restapi3f86da58": {}
+        "restapi6fab0ae1": {
+          "userPoolId": "us-east-1_aq6ZRM9sC",
+          "userPoolName": "account178df0111_userpool_78df0111-dev",
+          "webClientId": "6j55440jgtffunk2hqr1v5iv4u",
+          "nativeClientId": "6pku4po7isiosb3o8rdtpl302o",
+          "identityPoolId": "us-east-1:d5492f37-7883-47a4-9645-6747b9c6e34e",
+          "identityPoolName": "account178df0111_identitypool_78df0111__dev",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::728254692372:role/amplify-account1-dev-161809-authRole",
+          "authRoleName": "amplify-account1-dev-161809-authRole",
+          "unauthRoleArn": "arn:aws:iam::728254692372:role/amplify-account1-dev-161809-unauthRole",
+          "unauthRoleName": "amplify-account1-dev-161809-unauthRole"
+        }
       },
       "function": {
-        "restapifaa8c137": {
-          "deploymentBucketName": "amplify-restapi-dev-91850-deployment",
-          "s3Key": "amplify-builds/restapifaa8c137-42696f6b666d6c686c31-build.zip"
+        "restapib237e5d8": {
+          "deploymentBucketName": "amplify-restapi-dev-103938-deployment",
+          "s3Key": "amplify-builds/restapib237e5d8-556f44377968395a6e4a-build.zip"
+        },
+        "restapie1902991": {
+          "deploymentBucketName": "amplify-restapi-dev-103938-deployment",
+          "s3Key": "amplify-builds/restapie1902991-61793645507677423651-build.zip"
         }
       }
     }

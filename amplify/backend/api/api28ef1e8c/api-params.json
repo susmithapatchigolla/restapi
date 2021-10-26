@@ -2,7 +2,7 @@
   "paths": [
     {
       "name": "/items",
-      "lambdaFunction": "restapifaa8c137",
+      "lambdaFunction": "restapie1902991",
       "privacy": {
         "private": true,
         "auth": [
@@ -16,23 +16,23 @@
       "policyResourceName": "/items"
     }
   ],
-  "resourceName": "apie5d011ad",
-  "apiName": "apie5d011ad",
+  "resourceName": "api28ef1e8c",
+  "apiName": "api28ef1e8c",
   "functionArns": [
     {
-      "lambdaFunction": "restapifaa8c137"
+      "lambdaFunction": "restapie1902991"
     }
   ],
   "privacy": {
     "auth": 1,
     "unauth": 0,
-    "authRoleName": "amplify-restapi-dev-91850-authRole",
-    "unAuthRoleName": "amplify-restapi-dev-91850-unauthRole"
+    "authRoleName": "amplify-restapi-dev-103938-authRole",
+    "unAuthRoleName": "amplify-restapi-dev-103938-unauthRole"
   },
   "dependsOn": [
     {
       "category": "function",
-      "resourceName": "restapifaa8c137",
+      "resourceName": "restapie1902991",
       "attributes": [
         "Name",
         "Arn"

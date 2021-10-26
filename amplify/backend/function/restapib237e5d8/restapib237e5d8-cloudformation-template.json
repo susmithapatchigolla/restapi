@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "restapifaa8c137",
+            "restapib237e5d8",
             {
               "Fn::Join": [
                 "",
                 [
-                  "restapifaa8c137",
+                  "restapib237e5d8",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "restapiLambdaRole85ae97ee",
+            "restapiLambdaRoleaf27d5f9",
             {
               "Fn::Join": [
                 "",
                 [
-                  "restapiLambdaRole85ae97ee",
+                  "restapiLambdaRoleaf27d5f9",
                   "-",
                   {
                     "Ref": "env"

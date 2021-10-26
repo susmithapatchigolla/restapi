@@ -1,0 +1,6 @@
+{
+  "authSelections": "identityPoolAndUserPool",
+  "resourceName": "restapi6fab0ae1",
+  "serviceType": "imported",
+  "region": "us-east-1"
+}
