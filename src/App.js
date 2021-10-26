@@ -9,21 +9,38 @@ import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 Amplify.configure(awsconfig);
 
 function App() {
-  useEffect(()=>{
-    const apiName = 'api28ef1e8c ';
-const path = '/items'; 
+  function getData() { 
+    const apiName = 'api28ef1e8c';
+    const path = '/items';
+    
+    console.log("Hel")
+    return API.get(apiName, path);
+    console.log("Hell0")
+  }
+  
+  (async function () {
+    const response = await getData();
+    console.log(response)
+  })();
+//  const abc= () =>{
+//   const apiName = 'api28ef1e8c ';
+//   const path = '/items'; 
 
-    const items = API
-    .get(apiName, path)
-    .then(response => {
-      // Add your code here
-      console.log(response);
-    })
-    .catch(error => {
-      console.log(error.response);
-   });
-    console.log(items);
-  },[])
+//     const items = API
+//     .get(apiName, path)
+//     .then(response => {
+//       // Add your code here
+//       console.log(response);
+//     })
+//     .catch(error => {
+//       console.log(error.response);
+//    });
+//     console.log(items);}
+ 
+
+ 
+  
+    
   return (
     <div className="App">
       <header className="App-header">
@@ -39,7 +56,9 @@ const path = '/items';
         >
           Learn React !
         </a>
+        {}
       </header>
+      <AmplifySignOut />
     </div>
   );
 }

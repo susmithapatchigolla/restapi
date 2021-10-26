@@ -30,11 +30,11 @@
       "function": {
         "restapib237e5d8": {
           "deploymentBucketName": "amplify-restapi-dev-103938-deployment",
-          "s3Key": "amplify-builds/restapib237e5d8-556f44377968395a6e4a-build.zip"
+          "s3Key": "amplify-builds/restapib237e5d8-783746734a54754f5a46-build.zip"
         },
         "restapie1902991": {
           "deploymentBucketName": "amplify-restapi-dev-103938-deployment",
-          "s3Key": "amplify-builds/restapie1902991-61793645507677423651-build.zip"
+          "s3Key": "amplify-builds/restapie1902991-3452642f2b396c586e53-build.zip"
         }
       }
     }
