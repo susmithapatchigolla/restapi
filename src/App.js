@@ -10,7 +10,7 @@ Amplify.configure(awsconfig);
 
 function App() {
   useEffect(()=>{
-    const apiName = 'apie5d011ad';
+    const apiName = 'api28ef1e8c ';
 const path = '/items'; 
 
     const items = API
