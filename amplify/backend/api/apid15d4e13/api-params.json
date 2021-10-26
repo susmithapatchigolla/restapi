@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "restapi35231ff7",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "apid15d4e13",
+  "apiName": "apid15d4e13",
+  "functionArns": [
+    {
+      "lambdaFunction": "restapi35231ff7"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-restapi-dev-191941-authRole",
+    "unAuthRoleName": "amplify-restapi-dev-191941-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "restapi35231ff7",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

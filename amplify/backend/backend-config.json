@@ -1,6 +1,6 @@
 {
   "auth": {
-    "restapie7d3edd8": {
+    "restapicc70a2b4": {
       "service": "Cognito",
       "serviceType": "imported",
       "providerPlugin": "awscloudformation",
@@ -9,25 +9,20 @@
     }
   },
   "function": {
-    "restapib237e5d8": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    },
-    "restapie1902991": {
+    "restapi35231ff7": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "api": {
-    "api28ef1e8c": {
+    "apid15d4e13": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "restapie1902991",
+          "resourceName": "restapi35231ff7",
           "attributes": [
             "Name",
             "Arn"

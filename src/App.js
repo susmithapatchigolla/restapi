@@ -10,7 +10,7 @@ Amplify.configure(awsconfig);
 
 function App() {
   function getData() { 
-    const apiName = 'api28ef1e8c';
+    const apiName = 'apid15d4e13';
     const path = '/items';
     
     console.log("Hel")
